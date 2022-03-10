@@ -40,7 +40,7 @@ nav ul li a{
    
 }
 .block_two{
-    background-image: url(./backs.jpg);
+    background-image: url("./images/backs.jpg");
     background-repeat: none;
     background-size: 100%;
     text-align: center;
