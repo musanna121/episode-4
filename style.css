@@ -1,0 +1,12 @@
+nav {
+
+}
+nav .logo{
+    width: 50px;
+}
+nav ul{
+
+}
+nav ul .list{
+    display: inline-block;
+}
