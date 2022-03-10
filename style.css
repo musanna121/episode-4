@@ -1,12 +1,17 @@
-nav {
-
+body{
+    width: 1000px;
+    background-color: grey;
+    margin: auto;
 }
 nav .logo{
-    width: 50px;
+    width : 100px;
+    border:1px solid red;
 }
-nav ul{
-
+nav .nav_links{
+    display: inline-block;
+    border:1px solid red;
 }
 nav ul .list{
     display: inline-block;
+    border:1px solid red;
 }
