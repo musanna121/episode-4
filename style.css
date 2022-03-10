@@ -1,17 +1,31 @@
 body{
     width: 1000px;
-    background-color: grey;
     margin: auto;
+    border:1px solid red;
+    back
+
+}
+nav{
+    height : 120px;
 }
 nav .logo{
-    width : 100px;
+    width : 120px;
+    height: 120px;
     border:1px solid red;
+    margin: 0;
+    padding: 0;
 }
 nav .nav_links{
     display: inline-block;
     border:1px solid red;
+    margin: 0;
+    padding: 0;
+}
+#one{
+    padding-left: 0px;
 }
 nav ul .list{
     display: inline-block;
     border:1px solid red;
+    text-align: center;
 }
