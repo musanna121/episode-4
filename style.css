@@ -1,31 +1,37 @@
 body{
-    width: 1000px;
+    width:1000px;
     margin: auto;
-    border:1px solid red;
-    back
+    /* border:1px solid red; */
+}
+.block_one{
 
 }
 nav{
-    height : 120px;
+    
 }
 nav .logo{
-    width : 120px;
-    height: 120px;
-    border:1px solid red;
+    height: 60px;
+    /* border:1px solid red; */
     margin: 0;
-    padding: 0;
+    vertical-align: 0;
 }
 nav .nav_links{
     display: inline-block;
-    border:1px solid red;
+    /* border:1px solid red; */
     margin: 0;
-    padding: 0;
+    vertical-align: top;
+    margin-left: 100px;
 }
-#one{
-    padding-left: 0px;
-}
+
 nav ul .list{
     display: inline-block;
-    border:1px solid red;
-    text-align: center;
+    list-style: none;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
