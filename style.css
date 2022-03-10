@@ -1,19 +1,23 @@
 body{
     width:1000px;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
     /* border:1px solid red; */
 }
 .block_one{
-
+    margin: 0;
+    padding: 0;
 }
 nav{
-    
+    margin: 0;
 }
+
 nav .logo{
     height: 60px;
     /* border:1px solid red; */
     margin: 0;
     vertical-align: 0;
+    padding-left: 10px;
 }
 nav .nav_links{
     display: inline-block;
@@ -33,5 +37,73 @@ nav ul li a{
     color: black;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+   
+}
+.block_two{
+    background-image: url(./backs.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    text-align: center;
+    height: 400px;
+    color:white;
+}
+section{
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    padding: 20px;
+}
+section .photo{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    
+}
+section img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+section button{
+    padding: 10px 30px;
+    
+}
+section button a{
+    color: black;
+    text-decoration: none;
+}
+.block_two{
+    background-image: url(./backs.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    text-align: center;
+    height: 400px;
+    color:white;
+}
+
+footer img{
+    height: 60px;
+    /* border:1px solid red; */
+    margin: 0;
+    vertical-align: 0;
+    padding-left: 10px;
+}
+footer ul{
+    display: inline-block;
+    /* border:1px solid red; */
+    margin: 0;
+    vertical-align: top;
+    margin-left: 100px;
+    padding-left:440px;
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    
+}
+footer ul li a{
+    font-size: 10pt;
 }
