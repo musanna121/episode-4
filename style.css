@@ -43,7 +43,7 @@ nav ul li a{
 }
 .block_two{
     background-image: url("./images/backs.jpg");
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
     height: 500px;
@@ -106,7 +106,7 @@ section button a{
 .block_three{
     height: 500px;
     background-image:url("./images/back2.jpg");
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: 100%;
     color: white;
     text-align:center;
