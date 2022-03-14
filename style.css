@@ -3,19 +3,14 @@ body{
     font-family: 'Open Sans', sans-serif;
     /* border:1px solid red; */
 }
-h2{
-    font-size: 40px;
-}
+
 .block_one{
-    margin: 0;
-    padding: 0;
-    margin: auto;
     background-color: antiquewhite;
     padding-bottom: 10px;
 }
 nav{
     width: 1200px;
-    margin: 0;
+    margin: auto;
 }
 
 nav .logo{
@@ -56,6 +51,7 @@ nav ul li a{
     padding-top: 20px;
 }
 .block_two div h2{
+    font-size: 40px;
     padding-top: 150px;
 }
 .block_two .button{
@@ -63,6 +59,8 @@ nav ul li a{
 }
 .block_two div button{
     padding: 10px 30px;
+    border-radius: 5px;
+    border: 0px;
 }
 
 section{
@@ -94,6 +92,8 @@ section img{
 }
 section button{
     padding: 10px 30px;
+    border-radius: 5px
+    background-color: antiquewhite;
     
 }
 section .button{
@@ -113,10 +113,16 @@ section button a{
     padding-top: 10px;
 }
 .block_three div h2{
+    font-size: 40px;
     padding-top : 150px;
 }
+.block_three .button{
+    padding: 30px;
+}
 .block_three div button{
-    padding: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0px;
 }
 .block_four{
     text-align: center;
@@ -147,7 +153,8 @@ section button a{
     display: inline-block;
 }
 .block_four p{
-    padding: 10px;
+    padding-top: 30px;
+  
 }
 footer{
     padding-top: 10px; 
